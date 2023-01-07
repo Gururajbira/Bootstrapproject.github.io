@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(119, 79, 31) !important;
+  position: fixed;
+  width: 99vw;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.activeNav {
+  color: orange !important;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(127, 98, 194);
+  border-radius: 0.5rem;
+}
+.services-cols {
+ 
+  height: 72vh;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.text-center {
+  color: rgb(189, 124, 5);
+}
+
+.cols-My {
+  color: black;
+}
+
+.card img {
+  height: 30vh;
+  border-radius: 20px;
+}
+
+.card {
+  padding: 0.5rem;
+}
+
+.card:hover {
+  rotate: -10deg;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px rgb(170, 86, 86);
+  margin-top: -0.5rem;
+  border-radius: 30px;
+  transition: all ease-in-out 1s;
+}
+
+.inner-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; 
+}
+
+.colourB{
+    color:rgb(155, 5, 100);
+}
+
+.g-blow{
+border-radius: 50px;
+}
+.cols-My{
+    border-radius: 30px;
+    box-shadow:  0px 0px 12px gray;
+}
